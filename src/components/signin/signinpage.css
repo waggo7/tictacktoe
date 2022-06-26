@@ -1,0 +1,11 @@
+#playersignform {
+    /* padding: 100px; */
+    width: 50%;
+    position: absolute;
+    align-self: center;
+}
+
+p {
+    text-transform: uppercase;
+    font-weight: 600;
+}

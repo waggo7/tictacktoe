@@ -1,0 +1,49 @@
+body {
+    align-self: center;
+    background-color: rgba(46, 43, 51, 0.831);
+    font: "Century Gothic", Futura;
+    height: 80%;
+}
+
+#gamefunction {
+    font-weight: bolder;
+    text-align: center;
+}
+
+.board-row {
+    justify-content: center;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.square {
+    margin: 15px;
+    background-color: rgba(10, 186, 43, 0.345);
+    color: rgba(164, 30, 9, 0.842);
+    border: 1px solid rgb(4, 59, 9);
+    font-size: 165px;
+    text-align: center;
+    width: 245px;
+    height: 225px;
+}
+
+.square:focus {
+    outline: none;
+    background-color: rgb(235, 215, 29);
+}
+
+.status {
+    font: 55px cursive;
+    margin: 20px;
+}
+
+#board {
+    display: grid;
+    flex-flow: row-reverse;
+}
+
+
+/* board {
+    height: 450px;
+    padding-left: 30px;
+} */
